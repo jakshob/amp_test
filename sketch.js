@@ -20,7 +20,7 @@ var counterArr;
 
 //AMP Variables
 
-counter = 0;
+counter = 40;
 
 counterImages = 0;
 

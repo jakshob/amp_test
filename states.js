@@ -193,7 +193,7 @@ function uiFinishLoop() {
 
   uiContainerStart((windowWidth / 2) - 100, windowHeight * 0.9, 250);
   textFont("Helvetica");
-  if (uiButtonSurvey("Spørgeskema").clicked) {
+  if (uiButton("Klik her for at komme til spørgeskema").clicked) {
 
     var resultsString = "";
 
