@@ -42,7 +42,7 @@ function uiStartTwo() {
   imageMode(CENTER);
   image(designs[7], 0.5 * width, 0.6 * height, scale * width, scale * designs[0].height * width / designs[0].width);
 
-  uiContainerStart((windowWidth / 2) - 100, height / 2 + 300, 250);
+  uiContainerStart((windowWidth / 2) - 100, height / 2 + 300, 200);
 
   if (uiButton("Kør testen").clicked) {
     //fullScreenToggle();
@@ -191,7 +191,7 @@ function uiFinishLoop() {
 
 
 
-  uiContainerStart((windowWidth / 2) - 100, windowHeight * 0.9, 250);
+  uiContainerStart((windowWidth / 2) - 100, windowHeight * 0.9, 300);
   textFont("Helvetica");
   if (uiButton("Klik her for at komme til spørgeskema").clicked) {
 
