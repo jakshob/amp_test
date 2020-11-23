@@ -59,7 +59,7 @@ function uiAMP() {
   currentMillis = millis();
 
 
-  if (currentMillis - prevMillis1 < primeTime) {
+  if (currentMillis - prevMillis1 > introTime && currentMillis - prevMillis1 < primeTime) {
 
     image(images[counter].image, windowWidth / 2, windowHeight / 2);
 
@@ -75,7 +75,7 @@ function uiAMP() {
 
   }
 
-  if (currentMillis - prevMillis1 > primeTime + targetTime + pauseTime) {
+  if (currentMillis - prevMillis1 > primeTime + targetTime + pauseTime-(introTime*2)) {
     background(255);
 
     fill(0);
