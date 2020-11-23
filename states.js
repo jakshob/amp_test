@@ -58,6 +58,10 @@ function uiAMP() {
   uiUpdateSimple();
   currentMillis = millis();
 
+  if (currentMillis - prevMillis1 < introTime) {
+    
+  }
+
 
   if (currentMillis - prevMillis1 > introTime && currentMillis - prevMillis1 < primeTime) {
 
