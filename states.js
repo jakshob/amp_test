@@ -203,7 +203,7 @@ function uiFinishLoop() {
 
     resultsString += "\n \n TESTDATA \n \n"
 
-    for (var i = 1; i < results.length; i++) {
+    for (var i = 0; i < results.length; i++) {
       resultsString += "\n type: " + results[i].type + "\n score: " + results[i].score + "\n percent: " + results[i].percent + "\n winner: " + results[i].winner + "\n pictures: "+ results[i].pictures + "\n \n";
     }
 
