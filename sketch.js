@@ -36,9 +36,12 @@ let mask;
 let primeMs = 75;
 let pauseMs = 120;
 let targetMs = 100;
-let primeTime = primeMs;
+let introMs = 800;
+
+let introTime = introMs;
+let primeTime = primeMs + introMs;
 let pauseTime = primeTime + pauseMs;
-let targetTime = primeTime + pauseTime + targetMs;
+let targetTime = pauseTime + targetMs;
 
 let prevMillis1 = 0;
 let currentMillis = 0;
