@@ -40,7 +40,7 @@ function uiStartTwo() {
   //Kan jeg justere stroke/fill på enkelte containers?
   cursor(ARROW);
   imageMode(CENTER);
-  image(designs[7], 0.5 * width, 0.5 * height, scale * width, scale * designs[0].height * width / designs[0].width);
+  image(designs[7], 0.5 * width, 0.7 * height, scale * width, scale * designs[0].height * width / designs[0].width);
 
   uiContainerStart((windowWidth / 2) - 100, height / 2 + 300, 250);
 

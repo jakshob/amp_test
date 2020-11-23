@@ -113,7 +113,7 @@ function uiButton(name) {
   return uiButton(name, color(255));
 }
 
-function uiButton(name, bgColor = 255, width = 200, height = 30, x=undefined, y=undefined) {
+function uiButton(name, bgColor = 180, width = 200, height = 30, x=undefined, y=undefined) {
 
   if (x == undefined) {
     var container = getCont();
